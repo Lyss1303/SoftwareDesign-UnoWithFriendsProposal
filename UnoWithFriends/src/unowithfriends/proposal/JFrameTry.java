@@ -1,3 +1,5 @@
+package unowithfriends.proposal; 
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.GridLayout;
@@ -13,7 +15,7 @@ import javax.swing.JPanel;
 import javax.swing.SwingConstants;
 import javax.swing.border.Border;
 
-public class JFrameTest implements ActionListener {
+public class JFrameTry implements ActionListener {
 
     private JFrame frame1; 
     private JPanel panel1;
@@ -26,7 +28,7 @@ public class JFrameTest implements ActionListener {
     
 
 
-    public JFrameTest(){
+    public JFrameTry(){
         frame1 = new JFrame("new jframe title"); 
         frame1.setSize(800, 800);
 
@@ -74,7 +76,7 @@ public class JFrameTest implements ActionListener {
 
 
     public static void main(String[] args) throws Exception {
-        JFrameTest jObject1 = new JFrameTest(); 
+        JFrameTry jObject1 = new JFrameTry(); 
 
     }
 
