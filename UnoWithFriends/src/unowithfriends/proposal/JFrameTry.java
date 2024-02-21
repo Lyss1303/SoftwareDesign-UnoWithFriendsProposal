@@ -15,6 +15,7 @@ import javax.swing.JPanel;
 import javax.swing.SwingConstants;
 import javax.swing.border.Border;
 
+//demonstrates use of jFrame, jLabel, jPanel, Jbutton ...
 public class JFrameTry implements ActionListener {
 
     private JFrame frame1; 
@@ -65,12 +66,6 @@ public class JFrameTry implements ActionListener {
         frame1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
         frame1.setVisible(true);
 
-        /*  //jlabel 
-        JLabel label1= new JLabel("label 1: serving cunt"); 
-
-        frame1.add(label1);
-        
-        frame1.setSize(800, 800); */
 
     }
 
