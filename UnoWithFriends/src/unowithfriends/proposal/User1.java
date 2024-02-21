@@ -3,7 +3,8 @@ package unowithfriends.proposal;
 import java.net.*;
 import java.io.*;
 
-//Reference: 
+//Reference: https://www.baeldung.com/a-guide-to-java-sockets
+//create client server and connect to socket server
 public class User1 {
     private Socket userSocket1;
     private PrintWriter out;

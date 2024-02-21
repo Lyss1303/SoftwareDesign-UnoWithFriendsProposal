@@ -3,7 +3,8 @@ package unowithfriends.proposal;
 import java.net.*;
 import java.io.*;
 
-//Reference:
+//Reference: https://www.baeldung.com/a-guide-to-java-sockets
+//creates socket server and connects to client server. 
 public class Server1{
     private ServerSocket serverSocket1; 
     private Socket userSocket1; 
@@ -31,7 +32,7 @@ public class Server1{
         userSocket1.close();
         serverSocket1.close();
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Server1 server=new Server1();
         server.start(6666); //NEED ACTUAL PORT
     }
